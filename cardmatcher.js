@@ -1,15 +1,7 @@
 
 
-matcherController = {
-	init: function(size) {
-	},
-};
 
 
-matcherView = {
-	updateGameView: function(){
-	},
-};
 
 
 
@@ -24,7 +16,7 @@ $(document).ready(function(e){
 			matcherView.updateGameView();
 			$("#grid-size-form").hide();
 		} else {
-			$("grid-size").val("Bad input, try again");
+			$("#grid-size").val("Bad input, try again");
 		}
 	});
 });
