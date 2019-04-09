@@ -79,7 +79,7 @@ matcherModel = {
 
 		if( guessedCard && this.selectedCard && this.selectedCard.value === guessedCard.value ){
 			isCorrect = true;
-			this.matcheCards += 2;
+			this.matchedCards += 2;
 		}
 		
 		this.selectedCard = null;

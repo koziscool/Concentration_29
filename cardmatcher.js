@@ -1,11 +1,5 @@
 
 
-
-
-
-
-
-
 $(document).ready(function(e){
 	$("#grid-size").focus();
 	$("#grid-size-button").click( function(e) {
